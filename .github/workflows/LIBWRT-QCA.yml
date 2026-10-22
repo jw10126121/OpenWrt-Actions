@@ -68,7 +68,7 @@ jobs:
       #用户态插件
       WRT_FEED_USER: ${{matrix.FEED_USER}}
       #软件源域名
-      WRT_FEED_HOST: &FEED_HOST 'immortalwrt-feed.pages.dev'
+      WRT_FEED_HOST: &FEED_HOST 'openwrt-8e2.pages.dev'
       #排除的内核模块
       WRT_KMOD_EXCLUDE: 'kmod-ath10k-sdio'
 
